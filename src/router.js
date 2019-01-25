@@ -9,7 +9,7 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/doc_finder',
+      path: 'doc_finder',
       name: 'home',
       component: Home
     },
