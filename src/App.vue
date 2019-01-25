@@ -36,7 +36,7 @@ export default {
   #app {
     width: 70%;
     margin: auto;
-    padding: 0 5px;
+    padding: 0 5px; 
   }
 
   @media (max-width: 800px) {
