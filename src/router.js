@@ -9,12 +9,12 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/doc_finder/doc_finder',
+      path: '/doc_finder',
       name: 'home',
       component: Home
     },
     { 
-      path: '/doctor',
+      path: '/doc_finder/doctor',
       name: 'doctor',
       props: true,
       component: Doctor
