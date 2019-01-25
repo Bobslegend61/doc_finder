@@ -9,7 +9,7 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/doc_finder/doc_finder',
       name: 'home',
       component: Home
     },
@@ -20,7 +20,7 @@ export default new Router({
       component: Doctor
     },
     {
-      path: '/about',
+      path: '/doc_finder/about',
       name: 'about',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
